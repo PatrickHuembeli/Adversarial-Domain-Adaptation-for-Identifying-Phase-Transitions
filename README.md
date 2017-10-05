@@ -24,23 +24,12 @@ If the path cannot be found start python and type:
 	ker.__file__
 
 
-## Files
+## Files to Generate States
 
 ### GUTZWILLER
 
 - Code partially from https://github.com/tcompa/BoseHubbardGutzwiller, install these files to use our code.
 - With this file we generated the Gutzwiller coefficients.
-
-
-### Gradient Reverse Layer
-- Code from https://github.com/fchollet/keras/issues/3119#issuecomment-230289301
-- Has to be in the same folder as the python script with the DANN code.
-
-### DANN_helper_file
-
-
-### DANN Implementation
-https://github.com/fchollet/keras/pull/4031/files
 
 ### Bogoliubov_Kitaev
 Produces Kitaev states
@@ -54,3 +43,18 @@ Hamiltonian in this file with the Hamiltonian from
 SSH_Long_Range_Hamiltonian.py
 
 ### Ising
+
+## Files for Neural Network
+
+### Gradient Reverse Layer
+- Code from https://github.com/fchollet/keras/issues/3119#issuecomment-230289301
+- Has to be in the same folder as the python script with the DANN code.
+
+### DANN_helper_file
+
+### DANN Implementation
+https://github.com/fchollet/keras/pull/4031/files
+
+
+
+
