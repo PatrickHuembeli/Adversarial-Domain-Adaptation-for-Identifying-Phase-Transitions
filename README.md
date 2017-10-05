@@ -47,14 +47,14 @@ SSH_Long_Range_Hamiltonian.py
 
 ## Files for Neural Network
 
-### Gradient Reverse Layer
+### Gradient_Reverse_Layer.py
 - Code from https://github.com/fchollet/keras/issues/3119#issuecomment-230289301
 - Has to be in the same folder as the python script with the DANN code.
 
-### DANN_helper_file
+### DANN_helper_file.py
  Summerizes all the important building blocks from https://github.com/fchollet/keras/pull/4031/files.
 
-### DANN Implementation
+### DANN_example.py
 Main file for the DANN, with all the parameters.
 First there is specified, which data has to be loaded.
 Then there is a section for the training, one for the preddiction / evaluation of the DANN, and the last part is to apply unsupervised techniques on the feature space directly.
