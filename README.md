@@ -51,9 +51,12 @@ SSH_Long_Range_Hamiltonian.py
 - Has to be in the same folder as the python script with the DANN code.
 
 ### DANN_helper_file
+ Summerizes all the important building blocks from https://github.com/fchollet/keras/pull/4031/files.
 
 ### DANN Implementation
-https://github.com/fchollet/keras/pull/4031/files
+Main file for the DANN, with all the parameters.
+First there is specified, which data has to be loaded.
+Then there is a section for the training, one for the preddiction / evaluation of the DANN, and the last part is to apply unsupervised techniques on the feature space directly.
 
 
 
