@@ -5,9 +5,6 @@ Python code for our paper "Adversarial Domain Adaptation for Identifying Phase T
 
 To train the DANN there are changes that have to be done in the keras source files.
 We recommend to make a new environment for this.
-If the DANN is trained and you want to test it, we recommend to deactivate this new
-environment, because some times there is a bug appearing and the predictions of the 
-NN are wrong. This still has to be fixed.
 
 
 ## INSTALL
@@ -26,15 +23,15 @@ If the path cannot be found start python and type:
 
 ## Files to Generate States
 
-### GUTZWILLER
+### Bose_Hubbard_Gutzwiller_coefficients.py
 
 - Code partially from https://github.com/tcompa/BoseHubbardGutzwiller, install these files to use our code.
 - With this file we generated the Gutzwiller coefficients.
 
-### Bogoliubov_Kitaev
+### Bogoliubov_Kitaev.py
 Produces Kitaev states
 
-### SSH_states_and_Winding_Nr
+### SSH_states_and_Winding_Nr.py
 Produces SSH states for OBC and PBC and calculates
 also the winding number and gives a plot of it.
 
@@ -43,6 +40,10 @@ Hamiltonian in this file with the Hamiltonian from
 SSH_Long_Range_Hamiltonian.py
 
 ### Ising
+
+- Ising_energy_Gibbs_sampling.py generates the Ising configurations via Monte Carlo method.
+  The code has been made faster by using the beginning of each Markov chain more than once.
+- CNN_Ising.py is a normal convolutional neural network, that can give the same output as the DANN.
 
 ## Files for Neural Network
 
