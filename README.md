@@ -7,7 +7,7 @@ To train the DANN there are changes that have to be done in the keras source fil
 We recommend to make a new environment for this.
 
 
-## INSTALL
+### INSTALL
 
 - create new environment: conda create -n dann anaconda
 
