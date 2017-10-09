@@ -59,5 +59,9 @@ SSH_Long_Range_Hamiltonian.py
 Then there is a section for the training, one for the preddiction / evaluation of the DANN, and the last part is to apply unsupervised techniques on the feature space directly.
 
 
+### training.py and training_old.py
+
+- training.py is the new file that has to be placed in the keras backend.
+- training_old.py is a backup of the original file.
 
 
