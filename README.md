@@ -11,15 +11,13 @@ We recommend to make a new environment for this.
 
 - create new environment: conda create -n dann anaconda
 
-- activate the environment: source activate dann
-
 - replace 'training.py' in /home/USERNAME/.conda/pkgs/keras-2.0.5-py36_0/lib/python3.6/site-packages/keras/engine
 by the 'training.py' file in the folder. 
 'training_old.py' is the original file. Keep it, just in case.
 If the path cannot be found start python and type:
 	import keras as ker
 	ker.__file__
-
+- activate the environment "source activate dann" to run training of DANN.
 
 ## Files to Generate States
 
@@ -29,13 +27,13 @@ If the path cannot be found start python and type:
 - With this file we generated the Gutzwiller coefficients.
 
 ### Bogoliubov_Kitaev.py
-Produces Kitaev states
+- Produces Kitaev states
 
 ### SSH_states_and_Winding_Nr.py
-Produces SSH states for OBC and PBC and calculates
+- Produces SSH states for OBC and PBC and calculates
 also the winding number and gives a plot of it.
 
-To do the same for long range SSH, replace the
+- To do the same for long range SSH, replace the
 Hamiltonian in this file with the Hamiltonian from
 SSH_Long_Range_Hamiltonian.py
 
@@ -49,14 +47,15 @@ SSH_Long_Range_Hamiltonian.py
 
 ### Gradient_Reverse_Layer.py
 - Code from https://github.com/fchollet/keras/issues/3119#issuecomment-230289301
-- Has to be in the same folder as the python script with the DANN code.
+- Needs to be in same folder as DANN main file "DANN_example.py"
 
 ### DANN_helper_file.py
- Summerizes all the important building blocks from https://github.com/fchollet/keras/pull/4031/files.
+ - Summerizes all the important building blocks from https://github.com/fchollet/keras/pull/4031/files.
+ - Needs to be in same folder as DANN main file "DANN_example.py"
 
 ### DANN_example.py
-Main file for the DANN, with all the parameters.
-First there is specified, which data has to be loaded.
+- Main file for the DANN, with all the parameters.
+- First there is specified, which data has to be loaded.
 Then there is a section for the training, one for the preddiction / evaluation of the DANN, and the last part is to apply unsupervised techniques on the feature space directly.
 
 
