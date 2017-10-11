@@ -2,6 +2,10 @@ This is the computational appendix for the following paper:
 
 Patrick Huembeli, Alexandre Dauphin, Peter Wittek. [Adversarial Domain Adaptation for Identifying Phase Transitions](https://arxiv.org/abs/1710.xxxxx). *arXiv:1710.xxxxx*, 2017.
 
+DOI for this Git repository 
+.. image:: https://zenodo.org/badge/105749405.svg
+   :target: https://zenodo.org/badge/latestdoi/105749405
+
 # Installation
 
 To train the DANN, you need a few changes to the Keras source files.
