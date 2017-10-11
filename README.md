@@ -1,16 +1,11 @@
-This is computational appendix for the following paper:
+This is the computational appendix for the following paper:
 
 Patrick Huembeli, Alexandre Dauphin, Peter Wittek. [Adversarial Domain Adaptation for Identifying Phase Transitions](https://arxiv.org/abs/1710.xxxxx). *arXiv:1710.xxxxx*, 2017.
 
-# How to use this code:
+# Installation
 
 To train the DANN, you need a few changes to the Keras source files.
-We recommend to make a new environment for this.
-
-
-## Installation
-
-We assume that the Python distribution is Anaconda. Create and activate a new environment:
+We recommend to make a new environment for this. We assume that the Python distribution is Anaconda. Create and activate a new environment:
 
 ```bash
 $ conda create -n dann anaconda
