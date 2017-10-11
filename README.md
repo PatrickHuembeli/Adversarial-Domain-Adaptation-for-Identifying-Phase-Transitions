@@ -12,14 +12,6 @@ $ conda create -n dann anaconda
 $ source activate dann
 ```
 
-Replace `training.py` in `/home/USERNAME/.conda/pkgs/keras-2.0.5-py36_0/lib/python3.6/site-packages/keras/engine`
-by the `training.py` file in the folder. The file `training_old.py` is the original. Keep it, just in case.
-If the path cannot be found, start Python and type:
-
-```python
-import keras as ker
-ker.__file__
-```
 
 # Files to Generate States
 
