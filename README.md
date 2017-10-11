@@ -9,15 +9,21 @@ We recommend to make a new environment for this.
 
 ### INSTALL
 
-- create new environment: conda create -n dann anaconda
+Create and activate a new environment:
 
-- replace 'training.py' in /home/USERNAME/.conda/pkgs/keras-2.0.5-py36_0/lib/python3.6/site-packages/keras/engine
-by the 'training.py' file in the folder. 
-'training_old.py' is the original file. Keep it, just in case.
-If the path cannot be found start python and type:
-	import keras as ker
+::bash
+
+  $ conda create -n dann anaconda
+  $ source activate dann
+
+Replace `training.py` in `/home/USERNAME/.conda/pkgs/keras-2.0.5-py36_0/lib/python3.6/site-packages/keras/engine`
+by the `training.py` file in the folder. The file `training_old.py` is the original. Keep it, just in case.
+If the path cannot be found, start Python and type:
+
+::python
+
+  import keras as ker
 	ker.__file__
-- activate the environment "source activate dann" to run training of DANN.
 
 ## Files to Generate States
 
