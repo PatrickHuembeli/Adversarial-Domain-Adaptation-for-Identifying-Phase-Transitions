@@ -1,6 +1,6 @@
 This is the computational appendix for the following paper:
 
-Patrick Huembeli, Alexandre Dauphin, Peter Wittek. [Adversarial Domain Adaptation for Identifying Phase Transitions](https://arxiv.org/abs/1710.xxxxx). *arXiv:1710.xxxxx*, 2017.
+Patrick Huembeli, Alexandre Dauphin, Peter Wittek. [Adversarial Domain Adaptation for Identifying Phase Transitions](https://arxiv.org/abs/1710.08382). *arXiv:1710.08382*, 2017.
 
 DOI for this Git repository 
 [![DOI](https://zenodo.org/badge/105749405.svg)](https://zenodo.org/badge/latestdoi/105749405)
