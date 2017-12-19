@@ -21,7 +21,7 @@ If the path cannot be found, start Python and type:
 ::python
 
   import keras as ker
-	ker.__file__
+	'ker.__file__'
 
 # Files to Generate States
 
