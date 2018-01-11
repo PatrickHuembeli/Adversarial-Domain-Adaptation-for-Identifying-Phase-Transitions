@@ -20,7 +20,7 @@ from lib_gutzwiller_simulated_annealing import SA_for_gutzwiller
 
 
 # Physical parameters
-z = 200       # number of neighbors
+z = 4       # number of neighbors
 nmax = 20     # cutoff on the occupation number per site
 U = 1.0       # on-site interaction coefficient
 mu = 0.5     # chemical potential
