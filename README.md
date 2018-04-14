@@ -1,6 +1,6 @@
 This is the computational appendix for the following paper:
 
-Patrick Huembeli, Alexandre Dauphin, Peter Wittek. [Identifying Quantum Phase Transitions with Adversarial Neural Networks](https://arxiv.org/abs/1710.08382). *Physical Review B*, 97:134109, 2018. [DOI:](https://doi.org/10.1103/PhysRevB.97.134109)
+Patrick Huembeli, Alexandre Dauphin, Peter Wittek. [Identifying Quantum Phase Transitions with Adversarial Neural Networks](https://arxiv.org/abs/1710.08382). *Physical Review B*, 97:134109, 2018. [DOI:10.1103/PhysRevB.97.134109](https://doi.org/10.1103/PhysRevB.97.134109)
 
 DOI for this Git repository 
 [![DOI](https://zenodo.org/badge/105749405.svg)](https://zenodo.org/badge/latestdoi/105749405)
